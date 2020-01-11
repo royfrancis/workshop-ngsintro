@@ -45,7 +45,7 @@ jobs:
           ls -lh
           echo "Folder contents at ${path_repo}/${path_export}:"
           ls -lh ${path_repo}/${path_export}
-          git clone --single-branch --branch gh-pages "https://${GITHUB_ACTOR}:${{ secrets.GH_PAT }}@github.com/${GITHUB_REPOSITORY}.git" tmprepo
+          git clone --single-branch --branch gh-pages "https://${GITHUB_ACTOR}:${{ secrets.TOKEN }}@github.com/${GITHUB_REPOSITORY}.git" tmprepo
           cd tmprepo
           if [ -d $path_export ]; then
             echo "Directory ${path_export} already exists. Removing the directory."
