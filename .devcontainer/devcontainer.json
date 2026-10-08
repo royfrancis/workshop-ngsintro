@@ -1,0 +1,20 @@
+{
+  "name": "workshop-ngsintro",
+  "build": {
+    "dockerfile": "../container/dockerfile",
+    "context": ".."
+  },
+  "remoteUser": "root",
+  "postCreateCommand": "bash .devcontainer/setup-data.sh",
+  "forwardPorts": [8800],
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "arcticicestudio.nord-visual-studio-code"
+      ],
+      "settings": {
+        "workbench.colorTheme": "Nord"
+      }
+    }
+  }
+}

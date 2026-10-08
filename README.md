@@ -4,6 +4,12 @@
 
 This repo contains the course material for NBIS workshop **Introduction to Bioinformatics using NGS data**. The rendered view of this repo is available [here](https://nbisweden.github.io/workshop-ngsintro/).
 
+## GitHub Codespaces
+
+Open this repo in a ready-to-use cloud environment with all course tools installed and the workshop data downloaded:
+
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/NBISweden/workshop-ngsintro)
+
 ## Contributing
 
 To add or update contents of this repo (for collaborators), first clone the repo.

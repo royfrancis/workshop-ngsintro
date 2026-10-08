@@ -101,3 +101,7 @@ apptainer build --fakeroot \
 ```
 
 Use `sudo apptainer build` instead when unprivileged builds are not enabled on the host.
+
+## GitHub Codespaces
+
+The repository includes a dev container (`.devcontainer/`) built from `container/dockerfile`, so all tools from `pixi.toml` are available in the Codespace terminal. On first creation, `.devcontainer/setup-data.sh` downloads the workshop data from OSF to `data/workshop-data.zip` and unzips it into `data/`. This folder lives in the persistent workspace volume and is git-ignored, so it survives Codespace restarts and is only downloaded once. To fetch it again, delete `data/.extracted` and run `bash .devcontainer/setup-data.sh`.
