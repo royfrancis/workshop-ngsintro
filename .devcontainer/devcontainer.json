@@ -13,7 +13,15 @@
         "arcticicestudio.nord-visual-studio-code"
       ],
       "settings": {
-        "workbench.colorTheme": "Nord"
+        "workbench.colorTheme": "Nord",
+        "workbench.secondarySideBar.defaultVisibility": "hidden",
+        "chat.commandCenter.enabled": false,
+        "workbench.startupEditor": "none",
+        "workbench.activityBar.location": "hidden",
+        "workbench.panel.opensMaximized": "always",
+        "terminal.integrated.defaultLocation": "view",
+        "terminal.integrated.fontSize": 15,
+        "editor.fontSize": 15
       }
     }
   }
