@@ -1,6 +1,6 @@
 # workshop-ngsintro  
 
-[![gh-actions-build-status](https://github.com/nbisweden/workshop-ngsintro/workflows/build/badge.svg)](https://github.com/nbisweden/workshop-ngsintro/actions?workflow=build)  [![linkcheck_badge](https://github.com/nbisweden/workshop-ngsintro/workflows/linkcheck/badge.svg)](https://github.com/nbisweden/workshop-ngsintro/actions?workflow=linkcheck)  [![spellcheck_badge](https://github.com/nbisweden/workshop-ngsintro/workflows/spellcheck/badge.svg)](https://github.com/nbisweden/workshop-ngsintro/actions?workflow=spellcheck) [![docker-build](https://github.com/nbisweden/workshop-ngsintro/actions/workflows/docker.yml/badge.svg)](https://github.com/orgs/nbisweden/packages/container/package/workshop-ngsintro) [![apptainer-build](https://github.com/nbisweden/workshop-ngsintro/actions/workflows/apptainer.yml/badge.svg)](https://github.com/orgs/nbisweden/packages/container/package/workshop-ngsintro-apptainer)
+[![gh-actions-build-status](https://github.com/nbisweden/workshop-ngsintro/workflows/build/badge.svg)](https://github.com/nbisweden/workshop-ngsintro/actions?workflow=build)  [![linkcheck_badge](https://github.com/nbisweden/workshop-ngsintro/workflows/linkcheck/badge.svg)](https://github.com/nbisweden/workshop-ngsintro/actions?workflow=linkcheck)  [![spellcheck_badge](https://github.com/nbisweden/workshop-ngsintro/workflows/spellcheck/badge.svg)](https://github.com/nbisweden/workshop-ngsintro/actions?workflow=spellcheck) [![docker-build](https://github.com/nbisweden/workshop-ngsintro/actions/workflows/docker.yml/badge.svg)](https://github.com/orgs/nbisweden/packages/container/package/workshop-ngsintro)
 
 This repo contains the course material for NBIS workshop **Introduction to Bioinformatics using NGS data**. The rendered view of this repo is available [here](https://nbisweden.github.io/workshop-ngsintro/).
 
@@ -73,7 +73,7 @@ Go to [http://localhost:8800/](http://localhost:8800/) or [http://0.0.0.0:8800](
 
 ### Container for lab materials
 
-The lab materials are provided in a pre-built Docker image and an Apptainer image. You can use these images to run the lab exercises without installing all dependencies locally. See the `container/README.md` for more details on how to use these images.
+The lab materials are provided in a pre-built Docker image, which can also be converted to an Apptainer SIF image. See [container/README.md](container/README.md) for usage instructions.
 
 ## Repo organisation
 
